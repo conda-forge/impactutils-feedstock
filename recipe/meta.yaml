@@ -1,4 +1,4 @@
-{% set version = "0.7" %}
+{% set version = "0.8" %}
 
 package:
   name: impactutils
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/usgs/earthquake-impact-utils/archive/{{ version }}.tar.gz
-  sha256: 896081c5e7528c0d5ab11415dcd52037bcc0f5af0756956fa3ef74f68a2b34e1
+  sha256: 585a0b8bde7a02cd3835f3a9b994975b327ba8b3d5687204be0db757a279a2a8
 
 build:
   number: 0
