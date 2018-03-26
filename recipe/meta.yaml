@@ -9,23 +9,22 @@ source:
   sha256: 6352de8607a30899a17d5ef6662d59cf8481c7d953098d2608d9c1590876ac6b
 
 build:
-  number: 0
-  skip: True  # [py27]
+  number: 1
+  noarch: python
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
-    - python
+    - python >=3
     - pip
   run:
-    - python
+    - python >=3
     - beautifulsoup4 >=4.4.0
     - cartopy >=0.14.0
     - fiona >=1.6.0
     - h5py >=2.2
     - matplotlib <2.0
     - numpy >=1.0
-    - jupyter
     - pandas >=0.8.1
     - paramiko >=1.15.2
     - pycrypto >=2.6.1
