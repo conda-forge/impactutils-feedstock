@@ -14,14 +14,15 @@ Summary: Utility library for USGS earthquake applications.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/impactutils-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/impactutils-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/impactutils-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/impactutils-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/impactutils-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/impactutils-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/impactutils-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/impactutils-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/impactutils/badges/version.svg)](https://anaconda.org/conda-forge/impactutils)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/impactutils/badges/downloads.svg)](https://anaconda.org/conda-forge/impactutils)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-impactutils-green.svg)](https://anaconda.org/conda-forge/impactutils) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/impactutils.svg)](https://anaconda.org/conda-forge/impactutils) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/impactutils.svg)](https://anaconda.org/conda-forge/impactutils) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/impactutils.svg)](https://anaconda.org/conda-forge/impactutils) |
 
 Installing impactutils
 ======================
