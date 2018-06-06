@@ -1,4 +1,4 @@
-{% set version = "0.8.5" %}
+{% set version = "0.8.6" %}
 
 package:
   name: impactutils
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/usgs/earthquake-impact-utils/archive/{{ version }}.tar.gz
-  sha256: 938d033b6fa2984d919de2c39b2a4846b44d23fa6092e9b6aef13660c018d9c0
+  sha256: b2d541377baef08dccf1946bfa25039d0baa4ea8013b988ed6260d4d6a67da22
 
 build:
   number: 1
@@ -19,16 +19,16 @@ requirements:
     - pip
   run:
     - python >=3
-    - beautifulsoup4 >=4.4.0
-    - cartopy >=0.14.0
-    - fiona >=1.6.0
-    - h5py >=2.2
-    - matplotlib <2.0
-    - numpy >=1.0
-    - pandas >=0.8.1
-    - paramiko >=1.15.2
-    - pycrypto >=2.6.1
-    - shapely >=1.5.11
+    - beautifulsoup4
+    - cartopy
+    - fiona
+    - h5py
+    - matplotlib
+    - numpy
+    - pandas
+    - paramiko
+    - pycrypto
+    - shapely
 
 test:
 
