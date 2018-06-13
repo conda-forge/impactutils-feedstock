@@ -10,28 +10,27 @@ source:
 
 build:
   number: 0
+  skip: True  # [py27]
   noarch: python
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
-    - python >=3
+    - python
     - pip
   run:
-    - python >=3
+    - python
     - beautifulsoup4
     - cartopy
     - fiona
     - h5py
     - matplotlib
-    - numpy
     - pandas
     - paramiko
     - pycrypto
     - shapely
 
 test:
-
   imports:
     - impactutils
 
@@ -45,3 +44,5 @@ about:
 extra:
   recipe-maintainers:
     - mhearne-usgs
+    - cbworden
+    - emthompson-usgs
