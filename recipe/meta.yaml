@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/usgs/earthquake-impact-utils/archive/{{ version }}.tar.gz
-  sha256: b2d541377baef08dccf1946bfa25039d0baa4ea8013b988ed6260d4d6a67da22
+  sha256: f2a46760572a3a3a83b075f0dff367a65eca04ec61887cdf334010eb6c3129b3
 
 build:
   number: 0
@@ -45,3 +45,5 @@ about:
 extra:
   recipe-maintainers:
     - mhearne-usgs
+    - cbworden
+    - emthompson-usgs
