@@ -1,4 +1,4 @@
-{% set version = "0.8.10" %}
+{% set version = "0.8.11" %}
 
 package:
   name: impactutils
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/usgs/earthquake-impact-utils/archive/{{ version }}.tar.gz
-  sha256: 47ea6ed6f74e4f60c1bdafa40065a41af8f6b94558fe5eec60a303f2ae674e9a
+  sha256: c99002c6e704c511f993a6c658ceef78ad25f8dc55d4a6a826274e601bd669b3
 
 build:
   number: 0
@@ -15,10 +15,10 @@ build:
 
 requirements:
   build:
-    - python >=3
+    - python >=3.6
     - pip
   run:
-    - python >=3
+    - python >=3.6
     - beautifulsoup4
     - cartopy
     - fiona
@@ -31,7 +31,6 @@ requirements:
     - shapely
 
 test:
-
   imports:
     - impactutils
 
@@ -45,5 +44,5 @@ about:
 extra:
   recipe-maintainers:
     - mhearne-usgs
-    - cbworden
     - emthompson-usgs
+    - cbworden
