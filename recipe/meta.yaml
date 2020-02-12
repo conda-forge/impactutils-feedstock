@@ -9,7 +9,7 @@ source:
   sha256: a65ef3b65544d25ca5d0880bc53e559b5f6480c421ec06fffe2371d53057a1df
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: python -m pip install --no-deps --ignore-installed .
 
@@ -23,7 +23,7 @@ requirements:
     - cartopy
     - fiona
     - h5py
-    - matplotlib
+    - matplotlib-base
     - numpy
     - pandas
     - paramiko
