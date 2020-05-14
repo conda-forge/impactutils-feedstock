@@ -1,4 +1,4 @@
-{% set version = "0.8.17" %}
+{% set version = "0.8.18" %}
 
 package:
   name: impactutils
@@ -6,12 +6,12 @@ package:
 
 source:
   url: https://github.com/usgs/earthquake-impact-utils/archive/{{ version }}.tar.gz
-  sha256: a65ef3b65544d25ca5d0880bc53e559b5f6480c421ec06fffe2371d53057a1df
+  sha256: 4f5640fa4d7f3a43731ed711e415dc85a841e5ac5fa3ba852fae75b91619ee06
 
 build:
   number: 0
   noarch: python
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
@@ -37,7 +37,7 @@ test:
 about:
   home: https://github.com/usgs/earthquake-impact-utils
   license: Public Domain
-  summary: 'Utility library for USGS earthquake applications.'
+  summary: Utility library for USGS earthquake applications.
   license_family: Public Domain
   license_file: LICENSE.md
 
