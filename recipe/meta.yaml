@@ -9,7 +9,7 @@ source:
   sha256: 85fa195bb75fb4a9f3f43885d388e0919b6c828bee09849439cf2ec9d756b78a
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
@@ -21,6 +21,7 @@ requirements:
     - python >=3.6
     - beautifulsoup4
     - cartopy
+    - defusedxml
     - fiona
     - h5py
     - matplotlib

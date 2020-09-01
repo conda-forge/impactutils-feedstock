@@ -5,7 +5,7 @@ Home: https://github.com/usgs/earthquake-impact-utils
 
 Package license: Public Domain
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Utility library for USGS earthquake applications.
 
