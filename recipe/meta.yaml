@@ -29,6 +29,7 @@ requirements:
     - pandas
     - paramiko
     - pycrypto
+    - pyproj
     - shapely
 
 test:
