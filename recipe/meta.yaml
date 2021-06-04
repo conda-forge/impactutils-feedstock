@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/usgs/earthquake-impact-utils/archive/{{ version }}.tar.gz
-  sha256: 44b374294905b7cb23ab047d25857f5d9c11b9b805505c7c189c9ce087173818
+  sha256: 088bb2acefe57db77736024bfaa8a72b9220746cac0d79e8aa6dd973c72a6e16
 
 build:
   number: 1
