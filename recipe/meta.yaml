@@ -1,4 +1,4 @@
-{% set version = "0.8.27" %}
+{% set version = "0.8.28" %}
 
 package:
   name: impactutils
