@@ -38,7 +38,7 @@ test:
 
 about:
   home: https://github.com/usgs/earthquake-impact-utils
-  license: Public Domain
+  license: CC-PDDC
   summary: Utility library for USGS earthquake applications.
   license_family: Public Domain
   license_file: LICENSE.md
